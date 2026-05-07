@@ -1,0 +1,10 @@
+{
+  "exp_id": "171",
+  "specialist": "generalist",
+  "domain": "generalist",
+  "hypothesis": "FreqGPTQ: bias GPTQ Hessian calibration toward high-frequency tokens (top-100 get sqrt(2)× activation boost → 2× H weight) so quantization error is minimized on patterns that dominate BPB; zero artifact size cost.",
+  "val_bpb": 1.075384,
+  "delta_vs_prev": "-0.000034",
+  "timestamp": "2026-05-04T19:56:19Z",
+  "snapshot_path": "snapshots/171_generalist"
+}

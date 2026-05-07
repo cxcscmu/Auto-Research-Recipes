@@ -1,0 +1,18 @@
+{
+  "_comment": "multi_agent_generic_pg swarm config — ten generic specialists (gena..genj) all on claude-opus-4-7. Specialist names are 4 letters (gen<x>) so that job-name domain truncation `domain[:4]` produces unique strings — required because agent_core.harness.config:make_job_name truncates the domain segment to its first 4 lowercase letters. Operator may override via supervisor CLI flags or env vars.",
+  "model": {
+    "default": "claude-opus-4-7",
+    "overrides": {
+      "gena": "claude-opus-4-7",
+      "genb": "claude-opus-4-7",
+      "genc": "claude-opus-4-7",
+      "gend": "claude-opus-4-7",
+      "gene": "claude-opus-4-7",
+      "genf": "claude-opus-4-7",
+      "geng": "claude-opus-4-7",
+      "genh": "claude-opus-4-7",
+      "geni": "claude-opus-4-7",
+      "genj": "claude-opus-4-7"
+    }
+  }
+}

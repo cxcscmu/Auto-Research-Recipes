@@ -1,0 +1,10 @@
+{
+  "exp_id": "176",
+  "specialist": "opt",
+  "domain": "opt",
+  "hypothesis": "Muon momentum cooldown 0.99→0.95 after warmup: once the momentum warmup completes at 33% of training, linearly decay Muon momentum from 0.99 to 0.95 over the remaining 67%, reducing momentum inertia during the convergence phase so NS-orthogonalized updates track local gradients more precisely during warmdown.",
+  "val_bpb": 1.073142,
+  "delta_vs_prev": "-0.001065",
+  "timestamp": "2026-05-01T13:57:55Z",
+  "snapshot_path": "snapshots/176_opt"
+}

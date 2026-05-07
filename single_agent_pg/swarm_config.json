@@ -1,0 +1,9 @@
+{
+  "_comment": "single_agent_pg swarm config — single 'generalist' specialist on claude-opus-4-7. Mirrors multi_agent_pg/swarm_config.json structure (model object with default + overrides), so agent_core/harness/config.py:_load_swarm_config and the swarm-config attr proxy resolve identically. Operator may override any of these via supervisor CLI flags or env vars.",
+  "model": {
+    "default": "claude-opus-4-7",
+    "overrides": {
+      "generalist": "claude-opus-4-7"
+    }
+  }
+}

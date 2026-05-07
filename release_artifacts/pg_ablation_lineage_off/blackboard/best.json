@@ -1,0 +1,10 @@
+{
+  "exp_id": "075",
+  "specialist": "opt",
+  "domain": "opt",
+  "hypothesis": "Raise min_lr warmdown floor from 0.004 to 0.10 so late-training EMA steps see 10% of peak LR instead of 0.4%, keeping updates meaningful throughout the long warmdown_frac=0.72 decay phase.",
+  "val_bpb": 1.077413,
+  "delta_vs_prev": "-0.000186",
+  "timestamp": "2026-05-01T08:11:13Z",
+  "snapshot_path": "snapshots/075_opt"
+}

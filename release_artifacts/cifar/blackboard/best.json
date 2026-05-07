@@ -1,0 +1,10 @@
+{
+  "exp_id": "070",
+  "specialist": "opt",
+  "domain": "opt",
+  "hypothesis": "42ep + lr=11 + warmup fraction 10%→5% (peak LR in ~2 epochs vs ~4): exp_060 (42ep+lr=11+warmup=10%) missed gate by 0.0004 (acc=0.9596); halving warmup gives more high-lr training steps, targeting that gap while saving ~0.6s vs exp_030.",
+  "train_s": 25.1464,
+  "delta_vs_prev": "-0.079500",
+  "timestamp": "2026-04-28T16:54:16Z",
+  "snapshot_path": "snapshots/070_opt"
+}

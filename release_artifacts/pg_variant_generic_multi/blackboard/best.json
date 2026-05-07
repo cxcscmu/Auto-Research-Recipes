@@ -1,0 +1,10 @@
+{
+  "exp_id": "199",
+  "specialist": "genf",
+  "domain": "genf",
+  "hypothesis": "Add scalar input-conditioned MLP output gate (exp_169 design) on top of exp_186 (value residual + int5 c_k): 13 params/block × 11 = 143 params total, zero-init → transparent at step 0, learns to modulate MLP per position.",
+  "val_bpb": 1.074495,
+  "delta_vs_prev": "-0.000076",
+  "timestamp": "2026-05-03T15:26:34Z",
+  "snapshot_path": "snapshots/199_genf"
+}

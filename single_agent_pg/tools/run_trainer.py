@@ -1,0 +1,1 @@
+../../multi_agent_pg/tools/run_trainer.py

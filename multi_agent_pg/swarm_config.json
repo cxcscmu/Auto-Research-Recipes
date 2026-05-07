@@ -1,0 +1,9 @@
+{
+  "model": {
+    "default": "claude-opus-4-7",
+    "overrides": {
+      "arch": "claude-opus-4-7",
+      "meta": "claude-opus-4-7"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.tox/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Runtime state
+ckpt/
+magent_state*/
+run_archive/
+*.log
+
+# Data assets (users prepare under ./data/<task>/)
+data/
+!data/.gitkeep
+
+# Editors / IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code internal
+.claude/

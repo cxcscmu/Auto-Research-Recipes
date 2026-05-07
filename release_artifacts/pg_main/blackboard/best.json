@@ -1,0 +1,10 @@
+{
+  "exp_id": "750",
+  "specialist": "opt",
+  "domain": "opt",
+  "hypothesis": "Decouple Muon momentum warmdown cool target from warmup_start: hard-code 0.93 on the mm_blend cool line, leaving warmup ramp at 0.92.",
+  "val_bpb": 1.07221,
+  "delta_vs_prev": "-0.000036",
+  "timestamp": "2026-04-25T04:16:57Z",
+  "snapshot_path": "snapshots/750_opt"
+}

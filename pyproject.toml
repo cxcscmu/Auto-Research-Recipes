@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-research"
+version = "0.1.0"
+description = "Closed-loop auto research with specialist agents on training-recipe tasks."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11"
+dependencies = [
+    "claude-agent-sdk",
+    "filelock",
+    "psutil",
+]
+
+[project.optional-dependencies]
+dashboard = ["rich"]
+
+[tool.setuptools.packages.find]
+include = [
+    "agent_core*",
+    "multi_agent_pg*",
+    "multi_agent_cifar*",
+    "multi_agent_nc*",
+    "single_agent_pg*",
+    "multi_agent_generic_pg*",
+]

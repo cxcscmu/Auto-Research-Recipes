@@ -1,0 +1,10 @@
+{
+  "exp_id": "156",
+  "specialist": "arch",
+  "domain": "arch",
+  "hypothesis": "Add learnable logit_bias (32768 params, zero-init) applied after lm_head before softcap, on clean exp_025 base (V-norm from exp_152 removed). Decouples unigram token prior from residual stream: model can learn to suppress rare/never-seen tokens without wasting a residual direction on base-rate distribution. Inspired by modded-nanogpt speedrun 'logit shift' technique. Training duration unchanged (excluded from scaling_params like VE).",
+  "core_metric": 0.2244,
+  "delta_vs_prev": "+0.000300",
+  "timestamp": "2026-05-01T17:43:08Z",
+  "snapshot_path": "snapshots/156_arch"
+}

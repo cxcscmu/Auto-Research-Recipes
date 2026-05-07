@@ -1,0 +1,1 @@
+../multi_agent_pg/run_trial.sh
