@@ -4,7 +4,7 @@
 
 <img src="AutoResearch_logo.png" alt="Auto Research" width="900">
 
-[![Paper](https://img.shields.io/badge/paper-arXiv-red)](https://arxiv.org/abs/PLACEHOLDER)
+[![Paper](https://img.shields.io/badge/paper-arXiv%202605.05724-red)](https://arxiv.org/abs/2605.05724)
 [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE)
 
 **Auto Research**: a closed-loop harness that lets specialist language agents propose, run, and refine training recipes under real measurement. <br>
